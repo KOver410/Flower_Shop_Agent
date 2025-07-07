@@ -85,10 +85,8 @@ flower-chat-bot/
 │   └── script.js                  # AJAX chat functionality
 ├── data/
 │   └── flower_knowledge.txt       # Flower knowledge base
-├── lesson/                        # Tutorial files
 ├── requirements.txt               # Python dependencies
 ├── .env                          # Environment variables
-└── README.md                     # This file
 ```
 
 ## 🤖 Multi-Agent System
