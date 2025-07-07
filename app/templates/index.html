@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Flower Chatbot - Cửa hàng hoa</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🌸 Flower Chatbot</h1>
+            <p>Chào mừng bạn đến với cửa hàng hoa! Tôi có thể giúp gì cho bạn?</p>
+        </div>
+
+        <!-- Chat Messages Area -->
+        <div class="chat-container">
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Xin chào! Tôi là chatbot của cửa hàng hoa. Bạn có thể hỏi tôi về:
+                        <ul>
+                            <li>🌹 Các loại hoa và giá cả</li>
+                            <li>💐 Cách chăm sóc hoa</li>
+                            <li>🎁 Tư vấn hoa cho dịp đặc biệt</li>
+                            <li>📞 Thông tin liên hệ và đặt hàng</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Form -->
+        <div class="input-container">
+            <form id="chat-form" class="chat-form">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Nhập tin nhắn của bạn..." 
+                    required
+                    autocomplete="off"
+                >
+                <button type="submit">
+                    <span>Gửi</span>
+                    <span>📤</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
