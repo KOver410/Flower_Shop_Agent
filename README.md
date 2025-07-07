@@ -1,6 +1,7 @@
 # 🌸 Flower Chat Bot - AI Customer Service
-
 **Hệ thống chatbot chăm sóc khách hàng thông minh cho cửa hàng bán hoa, sử dụng Multi-Agent AI Architecture**
+
+![image](https://github.com/user-attachments/assets/e9cf92e3-9553-4847-beff-80cccf0b5845)
 
 ## ✨ Tính năng chính
 
@@ -179,10 +180,6 @@ response = await agent.generate_response(message, rag_context)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
