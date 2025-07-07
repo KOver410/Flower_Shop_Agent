@@ -155,28 +155,6 @@ response = await agent.generate_response(message, rag_context)
 - **Database:** Vector Database (ChromaDB)
 - **Architecture:** Multi-Agent System, RAG
 
-## 📝 API Endpoints
-
-### `GET /`
-Trang chủ với giao diện chat
-
-### `POST /chat`
-```json
-{
-  "message": "Tôi muốn mua hoa hồng đỏ"
-}
-```
-
-**Response:**
-```json
-{
-  "response": "Hoa hồng đỏ là lựa chọn tuyệt vời! Chúng tôi có...",
-  "agent_used": "flower_consultant",
-  "intent": "flower_consultation",
-  "confidence": 0.95
-}
-```
-
 ## 🎯 Use Cases
 
 1. **Tư vấn hoa cưới:** Agent tư vấn hoa phù hợp cho đám cưới
@@ -209,7 +187,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👨‍💻 Author
 
 **Tên của bạn**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: https://github.com/KOver410
 - Email: your.email@example.com
 
 ## 🙏 Acknowledgments
