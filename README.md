@@ -68,8 +68,6 @@ GEMINI_API_KEY=your_gemini_api_key_here
 python -m uvicorn app.main:app --reload
 ```
 
-Truy cập: `http://localhost:8000`
-
 ## 📁 Cấu trúc project
 
 ```
